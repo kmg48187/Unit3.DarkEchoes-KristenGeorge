@@ -1,0 +1,27 @@
+
+body{
+    color: white;
+    background-color: rgb(33, 38, 43);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:20px;}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.details{grid-column-start: 2;
+        grid-column-end: 3;
+    }
+
+.episodeList{grid-column-start: 1;
+            grid-column-end: 2;}
+
+.episodeList ul{
+    list-style: none;
+    display: grid;
+    gap:1ch;
+}
+.episodeList li:hover{
+    color:red;
+}
